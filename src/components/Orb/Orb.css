@@ -1,0 +1,26 @@
+@keyframes Orb-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .orb {
+    animation: Orb-logo-spin infinite 20s linear;
+  }
+} */
+
+.orb {
+  height: 100%;
+  width: 100%;
+  background-image: url("./../../assets/orb-gradient.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-variant: small-caps;
+}

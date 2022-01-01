@@ -1,0 +1,19 @@
+.expandedOrb {
+  height: 100%;
+  width: 100%;
+  background-image: url("./../../assets/orb-gradient.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.infoContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
