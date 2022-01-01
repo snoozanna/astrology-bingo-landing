@@ -31,7 +31,7 @@ const Landing = () => {
               className="secondary"
               onClick={() => modalHandler("secondary")}
             >
-              <Orb title="How do I play?" modal={modal} />
+              <Orb title="How do I play??" modal={modal} />
             </div>
             <div
               className="afterthought"
