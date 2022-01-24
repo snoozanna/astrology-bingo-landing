@@ -8,7 +8,7 @@ const Orb = ({ title, modal }) => {
 
   return (
     <div className="orb">
-      <h2>{title}</h2>
+      <h2 className="orbTitle">{title}</h2>
     </div>
   );
 };

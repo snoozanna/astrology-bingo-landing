@@ -7,12 +7,6 @@
   }
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .orb {
-    animation: Orb-logo-spin infinite 20s linear;
-  }
-} */
-
 .orb {
   height: 100%;
   width: 100%;
@@ -21,6 +15,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   font-variant: small-caps;
+}
+
+.orbTitle {
+  max-width: 50%;
+  text-align: center;
 }

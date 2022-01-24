@@ -9,10 +9,21 @@ body {
 }
 
 .App {
-  background-image: url("./assets/ab-background-logo.png"),
+  background-image: url("./assets/bg-vertical.png"),
     radial-gradient(circle, rgba(27, 20, 100, 1) 0%, rgba(112, 15, 181, 1) 100%);
   min-height: 100vh;
   background-size: cover;
+}
+
+@media (min-width: 1000px) {
+  .App {
+    background-image: url("./assets/ab-background-logo.png"),
+      radial-gradient(
+        circle,
+        rgba(27, 20, 100, 1) 0%,
+        rgba(112, 15, 181, 1) 100%
+      );
+  }
 }
 
 ul,
