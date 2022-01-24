@@ -3,9 +3,16 @@ import ExpandedOrb from "../components/ExpandedOrb/ExpandedOrb";
 import Orb from "../components/Orb/Orb";
 import logo from "./../assets/logo/ab-logo-white.png";
 import rocket from "./../assets/winner.png";
-import trolley from "./../assets/trolley.png";
+// import trolley from "./../assets/trolley.png";
+import earth from "./../assets/earth.png";
+import planettwo from "./../assets/planettwo.png";
+import planetthree from "./../assets/planetthree.png";
+import planetfour from "./../assets/planetfour.png";
+import spaceship from "./../assets/spaceship.png";
+// import ground from "./../assets/ground.png";
+
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-// import { useSpring, animated } from "react-spring";
+
 import "./landing.css";
 
 const Landing = () => {
@@ -34,7 +41,7 @@ const Landing = () => {
   return (
     <>
       <div className="landing">
-        <Parallax pages={6} style={{ top: "0", left: "0" }}>
+        <Parallax pages={7} style={{ top: "0", left: "0" }}>
           <ParallaxLayer
             offset={0}
             speed={2.5}
@@ -73,11 +80,53 @@ const Landing = () => {
           </ParallaxLayer>
 
           <ParallaxLayer
-            offset={2}
-            speed={2}
-            // style={{ backgroundColor: "#ff6d6d" }}
+            offset={1}
+            speed={0.9}
+            style={{
+              display: "flex",
+              padding: "30px",
+              justifyContent: "flex-start",
+              alignItems: "center",
+            }}
           >
-            <img src={rocket} alt="winner rocket" className="rocket"></img>
+            <img src={earth} alt="planet earth" className="planet earth"></img>
+          </ParallaxLayer>
+          <ParallaxLayer
+            offset={1.3}
+            speed={2}
+            style={{
+              display: "flex",
+              justifyContent: "flex-end",
+              alignItems: "center",
+            }}
+          >
+            <img src={planettwo} alt="planet " className="planet saturn"></img>
+          </ParallaxLayer>
+          <ParallaxLayer
+            offset={1.7}
+            speed={4}
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <img
+              src={planetthree}
+              alt="planet "
+              className="planet neptune"
+            ></img>
+          </ParallaxLayer>
+          <ParallaxLayer
+            offset={1.1}
+            speed={4}
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <img src={planetfour} alt="planet " className="planet"></img>
           </ParallaxLayer>
 
           <ParallaxLayer
@@ -104,21 +153,38 @@ const Landing = () => {
               </div>
             )}
           </ParallaxLayer>
+
           <ParallaxLayer
-            offset={3.5}
+            offset={3}
             speed={2}
-            // style={{ backgroundColor: "#ff6d6d" }}
+            style={{
+              display: "flex",
+              justifyContent: "flex-end",
+              alignItems: "center",
+            }}
           >
-            <img src={trolley} alt="prize trolley" className="trolley"></img>
+            <img src={rocket} alt="winner rocket" className="rocket"></img>
           </ParallaxLayer>
+
           <ParallaxLayer
             offset={5}
             speed={0.5}
             style={{
               display: "flex",
+              justifyContent: "flex-start",
+              alignItems: "center",
+            }}
+          >
+            <img src={spaceship} alt="spaceship" className="spaceship"></img>
+          </ParallaxLayer>
+          <ParallaxLayer
+            offset={5.5}
+            speed={0.5}
+            sticky={{ start: 5, end: 7 }}
+            style={{
+              display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              color: "white",
             }}
           >
             {isAftOpen ? (
