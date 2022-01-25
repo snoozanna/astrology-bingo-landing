@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Chromate-Regular";
-  src: url("./assets/fonts/Chromate-Regular.ttf") format("ttf");
+  src: url("./assets/fonts/Chromate-Regular.ttf") format("ttf"),
+    url("./assets/fonts/Chromate-Regular.otf") format("opentype");
 }
 
 body {
