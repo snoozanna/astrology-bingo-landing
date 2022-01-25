@@ -178,6 +178,21 @@ const Landing = () => {
             <img src={spaceship} alt="spaceship" className="spaceship"></img>
           </ParallaxLayer>
           <ParallaxLayer
+            offset={5.3}
+            speed={2.5}
+            style={{
+              display: "flex",
+              justifyContent: "flex-end",
+              alignItems: "center",
+            }}
+          >
+            <img
+              src={spaceship}
+              alt="spaceship"
+              className="spaceship speedy"
+            ></img>
+          </ParallaxLayer>
+          <ParallaxLayer
             offset={5.5}
             speed={0.5}
             sticky={{ start: 5, end: 7 }}
