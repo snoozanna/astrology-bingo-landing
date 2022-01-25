@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ExpandedOrb from "../components/ExpandedOrb/ExpandedOrb";
 import Orb from "../components/Orb/Orb";
-import logo from "./../assets/logo/ab-logo-white.png";
+import logo from "./../assets/logo/logo.png";
 import rocket from "./../assets/winner.png";
 // import trolley from "./../assets/trolley.png";
 import earth from "./../assets/earth.png";
