@@ -8,13 +8,16 @@ const ExpandedOrb = ({ modal }) => {
       <>
         <div className="expandedOrb">
           <div className="infoContainer">
-            <h2 className="orbTitle">What is Astrology Bingo?</h2>
+            <h2>What is Astrology Bingo?</h2>
             <p>
               The world’s first ever cosmic game show for astrology lovers,
               bingo wingers and their sceptic friends. The night revolves around
               a bingo game in which participants count their lucky stars and
-              play bingo with their astrological birth chart! Available for
-              booking as cabaret theatre show or a digital experience
+              play bingo with their astrological birth chart!
+            </p>
+            <p>
+              Available for booking as cabaret theatre show or a digital
+              experience
             </p>
           </div>
         </div>
@@ -26,12 +29,13 @@ const ExpandedOrb = ({ modal }) => {
         <div className="infoContainer">
           <h2>How do I play Astrology Bingo?</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cump sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-            aliquet nec, vulputate eget, arcu.
+            We may have dates coming up in your area! Check{" "}
+            <a href="https://www.figsinwigs.com/live-1">here</a>.
+          </p>
+          <p>
+            Or if you would like to talk about booking the show, online or IRL,
+            get in touch with Fig Producer{" "}
+            <a href="mailto:jennypearce@figsinwigs.com">Jenny</a>.
           </p>
         </div>
       </div>
